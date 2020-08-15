@@ -22,7 +22,7 @@ export default () => {
 
   return (
     <>
-      <h1>Hello Gatsby !</h1>
+      <h1>Hello Gatsby!</h1>
       <ul>
         {data.allTodos.data.map((todo) => {
           return (
