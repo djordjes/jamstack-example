@@ -1,8 +1,6 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 
-console.log(process.env.FAUNADB_SERVER_SECRET);
-
 const ALL_TODOS = gql`
   query {
     allTodos {
