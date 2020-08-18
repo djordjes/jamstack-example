@@ -10,4 +10,3 @@
     to = "https://graphql.fauna.com/graphql"
     status = 200
     force = true # COMMENT: ensure that we always redirect
-    headers = { authorization = "Bearer FAUNADB_SERVER_SECRET"}
