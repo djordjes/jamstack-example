@@ -5,9 +5,9 @@ const client = new ApolloClient({
   //uri: "https://graphql.fauna.com/graphql",
   uri: "graphql",
   cache: new InMemoryCache(),
-  headers: {
+  /*headers: {
     authorization: `Bearer ${process.env.FAUNADB_SERVER_SECRET}`,
-  },
+  },*/
 });
 
 export const wrapRootElement = ({ element }) => (
